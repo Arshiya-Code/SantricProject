@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  /* Background for the entire app */
+}
+
+/* Make sure all elements use box-sizing */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* Adjust base font size for smaller screens */
+  }
+}
